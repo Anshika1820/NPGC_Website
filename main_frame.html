@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National PG College</title>
+    <style>
+        h1{
+            font-style: normal;
+            font-size: 35px;
+            font-family: "Bell MT";
+            text-align: center;
+            color:darkblue;
+            text-shadow: 2px 2px 4px;
+            padding-bottom: 1px;
+        }
+        h2{
+            font-style: normal;
+            font-size: 15px;
+            font-family: "Bell MT";
+            text-align: center;       
+        }
+        td{
+            background-color:rgb(22, 22, 74);
+            color: white;
+            text-align: center;
+            font-family: "Bell MT";
+            font-style: italic;
+            font-size: 20px;
+            width: 16.67%;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        table{
+            width: 100%;
+            height: 40px;
+            table-layout: fixed;
+            margin-bottom: 50px;
+        }
+        h3{
+            color: rgb(22, 22, 74);
+            font-family: "Bodoni MT";
+            font-style: italic;
+            font-size: 30px;
+            text-decoration: underline;
+            /* margin-left: 50px; */
+            text-align: center;
+            
+        }
+        .photo{
+            background-color: rgb(22, 22, 74);
+            height: 98vh;
+            width:80%;
+            margin-left: 150px;
+            animation: animate;
+            animation-duration: 30s;
+            animation-iteration-count: infinite;
+            
+        }
+        @keyframes animate {
+            0%{
+                background-image: url(./images/1.jpg);
+                background-size:cover;
+                background-repeat: no-repeat;
+            }
+            20%{
+                background-image: url(./images/2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            40%{
+                background-image: url(./images/3.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            60%{
+                background-image: url(./images/4.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            80%{
+                background-image: url(./images/5.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            100%{
+                background-image: url(./images/6.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        .notice{
+            width: 40%;
+            height: 50%;
+            margin-left: 450px;
+            background-color: rgb(22, 22, 74);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10%;
+        }
+        ul{
+            color: white;
+            font-family: "Bell MT";
+        }
+        .event{
+            width: 40%;
+            height: 70%;
+            margin-left: 300px; 
+        }
+        li:hover{
+            text-decoration: underline;
+        }
+        a:hover{
+            
+            text-decoration: underline;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>NATIONAL PG COLLEGE</h1>
+    <h2>An Autonomous CPE & NAAC Grade 'A'</h2>
+    <h2>College Of University of Lucknow</h2>
+
+    <img style="padding-top: 10px;  height: 150px; width: 200px; padding-left: 650px;" title="Home" src="./images/logo.jpg" alt="">
+    <br>
+
+    <img style="height: 20px; width: 25px; padding-left: 520px; float: left; padding-right: 10px;" src="./images/call.jpg" alt="">
+    <p style=" margin: 0px auto; float: left;"> 0522 4021304</p>
+    <img style="height: 20px; width: 25px;  float:left; padding-right: 10px; margin: 0px auto; padding-left: 30px;" src="./images/message.jpg"  alt="">
+    <p style="margin: 0px auto; float: left;">support@npgc.in </p>
+    <img style="height: 20px; width: 23px; float: left; padding-right: 10px; margin: 0px auto; padding-left: 30px;" src="./images/location.jpg" alt="">
+    <p style="margin: 0px auto; ">Rana Pratap Marg</p>
+    <br>
+
+    <table border="1" style=" border-color: rgb(7, 7, 56); ">
+        <tr>
+            <td><a href="./AboutUs.html">About Us</a></td>
+            <td><a href="./Courses.html">Courses</a></td>
+            <td><a href="./StudentCorner.html">Student Corner</a></td>
+            <td><a href="./Department.html">Department</a></td>
+            <td><a href="./Facilities.html">Facilities</a></td>
+            <td><a href="./ContactUs.html">Contact Us</a></td>
+        </tr>       
+    </table>
+    
+    <h3>Photo Gallery</h3>
+    <div class="photo"></div>
+    <h3>Important Notices</h3>
+    <div class="notice" border="1">
+        <ul>
+            <!-- <li>Bharat Scout-Guide registeration started</li> -->
+            <li><a href="./images/janmashtami_notice.jpg">Janmashtami Holiday Notice</a></li>
+            <li><a href="./images/theatrefest_notice.jpg">Theatre Fest Notice</a></li>
+            <li>Fees date extended</li>
+            <li><a href="./images/fees_notice.jpg">Semester fees notice</a></li>
+        </ul>
+    </div>
+    <h3>Latest Events</h3>
+    <div class="event">
+        <table border="1" style="margin-left: 150px;">
+            <tr>
+                <td style="background-color: white; color:rgb(7, 7, 56); width: 5%;font-size: 15px; font-style: normal; ">11 Mar</td>
+                <td style="font-size: 18px; ;">Educational Visit to C.B. Gupta Krishi Mahavidhyalaya</td>
+            </tr>
+            <tr style="font-size: 20px;">
+                <td style="background-color: white; color:rgb(7, 7, 56);font-size: 15px; font-style: normal;">3 Mar</td>
+                <td style="font-size: 18px; ">World Wildlife Day</td>
+            </tr>
+            <tr style="font-size: 20px;">
+                <td style="background-color: white; color:rgb(7, 7, 56);font-size: 15px; font-style: normal;">5 Oct</td>
+                <td style="font-size: 15px; ">Day-6 ATAL-FDP</td>
+            </tr>
+            <tr style="font-size: 20px;">
+                <td style="background-color: white; color:rgb(7, 7, 56);font-size: 15px; font-style: normal;">4 Oct</td>
+                <td style="font-size: 15px; ">Day-5 ATAL-FDP</td>
+            </tr>
+        </table>
+    </div>
+    
+    
+</body>
+</html>
